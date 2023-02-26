@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh; 
+}
+
+
+.contentone {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    padding-left: 10em;
+}
+
+.face {
+    display: flex;
+
+}
+
+.face img {
+    display: block;
+    background-color: #f0f2f5;
+    width: 15rem ;
+    max-height: 4.5rem;
+}
+
+.head {
+    display: flex;
+    flex-flow: column;
+}
+
+.head h2 {
+    display: flex;
+    font-size: 28px;
+    font-weight: lighter;
+    padding-bottom: 2em;
+    padding-left: 0.5em;;
+}
+
+
+.contenttwo {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    background: white;
+    align-items: center;
+    padding: 1em;
+    border-radius: 7px;
+    padding-bottom: 1.7em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+.phone {
+
+    width: 365px;
+    height: 53px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 10px;
+}
+
+.phone:focus {
+    outline: none;
+    border: 1px solid #1877f2;
+}
+
+
+
+.password {
+    display: flex;
+    width: 365px;
+    height: 53px;
+    font-size: 17px;
+    border-radius: 6px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 10px;
+}
+
+.password:focus {
+    outline: none;
+    border: 1px solid #1877f2;
+}
+
+.login {
+
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    border: none;
+    font-size: 20px;
+    border-radius: 6px;
+    width: 365px;
+    height: 53px;
+    background: #1877f2;
+    white-space: nowrap;
+}
+
+.login:hover {
+    background: #0066ec;
+}
+
+.forgot {
+    color: #1877f2;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(214, 214, 214);
+    padding-top: 1.5rem
+}
+
+
+.create {
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    width: 192px;
+    height: 48px;
+    background: #42b72a;
+    white-space: nowrap;
+}
+
+
+.create:hover {
+    background: #24990d;
+}
+
+
+.text {
+    padding-top: 2rem;
+    font-size: 13px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 5em 7em 5em;
+    background: #f0f2f5;
+
+}
+
+footer {
+    display: flex;
+    height: 5rem;
+    background-color: white;
+    font-size: 0.75rem;
+    margin: 0rem 5rem 0rem 5rem;
+    white-space: nowrap;
+
+}
+
+.language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 0.9em;
+
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(129, 128, 128);
+}
+
+.lang:hover {
+    text-decoration: underline;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.1em;
+    height: 1.3rem;
+    width: 1.8rem;
+    color: rgb(106, 106, 106);
+    border-radius: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.add:hover {
+    background: rgb(223, 223, 223);
+}
+
